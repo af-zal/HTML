@@ -7,7 +7,7 @@
     <header>
         <h1 align="center"> MARVEL FANPAGE</h1><br/><br/>
         <p>Marvel Comics is an American comic book publisher and the flagship property of Marvel Entertainment, a division of The Walt Disney Company since September 1, 2009. Evolving from Timely Comics in 1939, Magazine Management/Atlas Comics in 1951 and its predecessor, Marvel Mystery Comics, the Marvel Comics title/name/brand was first used in June 1961.Marvel counts among its characters such well-known superheroes as Spider-Man, Iron Man, Captain America, Thor, Doctor Strange, Hulk, Wolverine, and Captain Marvel, as well as popular superhero teams such as the Avengers, X-Men, Fantastic Four, and Guardians of the Galaxy. </p>
-<br/><br/></header>
+<br/><br/></header><hr>
 <section id="unorder">
     <h3><em>SOME OF OUR HEROES</em></h3>
     <ul>
@@ -17,7 +17,7 @@
         <li><b>HULK</b></li>
         <li><b>DOCTOR STRANGE</b></li>
     </ul>
-</section><br>
+</section><br><hr>
 <section id="order">
     <h3><em>THE THREE BIGGEST FAN FAVORITE</em></h3>
     <ol>
@@ -25,14 +25,18 @@
       <li>AVENGERS INFINITY WAR</li>
       <li>AVENGERS ENDGAME</li>
     </ol>
-</section>
+</section><hr>
 <section id="multimedia">
 
-<img src="images/endgame.png"/><br><br>
+<img src="images/endgame.png"/><br><br><hr>
  <h2>WATCH THE BEST CLIP OF ENDGAME HERE</h2>
  <iframe width="560" height="315" src="https://www.youtube.com/embed/rrGMENN1iaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-</section>
+<br><br><br><br><hr>
+<h2>INFINITY WAR CLIP </h2>
+ <video style="height: 600px;" controls>
+  <source src="images/video.mp4" type="video/mp4" >
+ </video>
+</section><hr>
 <section id="heroes">
     <h3><em>*KNOW MORE ABOUT OUR HEROES*</em></h3>
   <ul>
@@ -42,7 +46,7 @@
 <li><a href="https://en.wikipedia.org/wiki/Hulk" target="_blank">HULK</a></li><br>
 <li><a href="https://en.wikipedia.org/wiki/Doctor_Strange" target="_blank">DOCTOR STRANGE</a></li>
 
-  </ul><br>
+  </ul><br><hr>
   <section id="table">
     <table>
       <tr>
@@ -76,7 +80,7 @@
       <td>TIME TRAVEL</td>
     </tr>
     </table>
-  </section>
+  </section><hr>
 
 
 
@@ -100,31 +104,39 @@
     <input type="date" placeholder="DOB"/><br><br>
     <label>PASSWORD:</label>
     <input type="password" required/><br><br>
-    <label><b>CHOOSE YOUR FAVORITE:</b></label><br><br>
+    <label><b>CHOOSE YOUR FAVORITE:</b></label><br><br><hr>
 
-    <input type="checkbox"/>
+    <input type="checkbox" name="hero"/>
     <label>IRON MAN</label><br><br>
-    <input type="checkbox"/>
+    <input type="checkbox" name="hero"/>
     <label>THOR</label><br><br>
-    <input type="checkbox"/>
+    <input type="checkbox" name="hero"/>
     <label>CAPTAIN AMERICA</label><br><br>
-    <input type="checkbox"/>
-    <label>DR STRANGE</label><br><br>
+    <input type="checkbox" name="hero"/>
+    <label>DR STRANGE</label><br><br><hr>
+
+    <label><b>SELECT YOUR FAV MOVIE</b></label>
+    <select name="fav movie">
+      <option value="endgame">ENDGAME</option>
+      <option value="infinity war" selected>INFINITY WAR</option>
+      <option value="age of utron">AGE OF ULTRON</option>
+    </select><br><br>
 
     <label><b>GENDER:</b></label>
     <label>Male</label>
-    <input type="radio"/>
+    <input type="radio" name="gender"/>
     <label>Female</label>
-    <input type="radio" /><br><br>
+    <input type="radio" name="gender" /><br><br>
 
     <label><em><b>YOUR FAV IMAGES:</em></b></label>
     <input type="file"/><br><br>
 
     <label>YOUR LOVE FOR MARVEL:</label>
     <input type="range"/><br><br>
-
     <label>Feel free to tell us what we missed</label>
-    <input type="text"/><br><br>
+
+
+   <textarea name="Feedback" id="" cols="10" rows="1"></textarea><br><br><hr>
 
     <input type="submit"/>
 
